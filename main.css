@@ -1,0 +1,70 @@
+/*image formatting*/
+img {
+    max-width: 40%;
+  	width: 100%;
+    height: auto;
+    padding-right: 1vw;
+}
+
+@media only screen /*for smartphones*/
+  and (min-device-width: 300px)
+  and (max-device-width: 900px)
+{
+    img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    }
+
+    #content {
+        padding-left: 0;
+    }
+}
+
+/*text formatting*/
+
+    ul {
+        list-style-type: none;
+    }
+
+	a:link, a:visited, a:active {
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+	a:hover {
+        color: grey;
+        font-weight: bold;
+    }
+
+   html {
+     	font-size: 2vh;
+    }
+
+    h1, h2, h3 {
+    font-family: "Archivo Black", sans-serif;
+    }
+
+    p {
+    font-family: "Archivo", sans-serif;
+    }
+
+
+/*block formatting*/
+
+.container {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.container h1 {
+    margin-top: 1vh;
+    margin-bottom: .5vh;
+}
+
+.writing p {
+    padding: 0;
+    margin: 0;
+}
